@@ -19,8 +19,8 @@ class UsersTableSeeder extends Seeder
                 'name' => 'user1',
                 'email' => 'user1@gmail.com',
                 'password' => bcrypt('123'),
-                'latitude' => 54.96995643, // широта
-                'longitude' => 73.40087252  // долгота
+                'latitude' => 54.979956,
+                'longitude' => 73.40087252
             ]);
         }
     }
