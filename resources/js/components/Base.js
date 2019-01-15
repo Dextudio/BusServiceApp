@@ -23,7 +23,7 @@ export default class Base extends Component {
 				this.setUser(response.data)
 			})
 			.catch(error => {
-				alert(`An Error Occured! ${error}`);
+				// alert(`An Error Occured! ${error}`);
 				localStorage.removeItem("access_token");
 			});
     }

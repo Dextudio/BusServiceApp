@@ -30,7 +30,7 @@ export default class AddBusModal extends Component {
                     console.log(response.data);
                     switch (response.data.state) {
                         case "success":
-                            this.setState({ success: [ "Buss wecord was added" ] });
+                            this.setState({ success: [ "Bus record was added" ] });
                             this.props.handleSuccess();
                             break;
                         case "fail":

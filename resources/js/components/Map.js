@@ -10,7 +10,7 @@ export default class Map extends Component {
     constructor(prop) {
         super(prop)
         this.state = {
-            zoom: 18,
+            zoom: 15,
             stops: [],
             showModal: false,
             modalSuccessFunction: null,
